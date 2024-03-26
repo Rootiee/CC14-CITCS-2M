@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Making Class Feedback</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Making Class Feedback</h1>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="frequency">Name:</label>
+                <input type="text" id="frequency" name="frequency" required>
+            </div>
+            <div class="form-group">
+                <label for="device">Year Level:</label>
+                <select id="device" name="device" required>
+                    <option value="desktop">First</option>
+                    <option value="mobile">Second</option>
+                    <option value="tablet">Third</option>
+                </select>
+            </div>
+          <div class="form-group">
+                <label for="frequency">Course: </label>
+                <input type="text" id="course" name="course" required>
+            </div>
+            <div class="form-group">
+              <div class="form-group">
+                <label for="frequency">E-mail: </label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="satisfaction">How would you rate the overall enjoyment of the Cookie Making Class?</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="5" required>
+            </div>
+                <label for="instructions">Were the instructions easy to follow?</label><br>
+    <input type="radio" id="yes" name="instructions" value="yes" required>
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="instructions" value="no">
+    <label for="no">No</label>
+</div>
+            <div class="form-group">
+                <label for="checkout">Adjust the scale to rate the helpfulness of the instructor(s) during the Cookie Making:</label>
+                <input type="range" id="checkout" name="checkout" min="1" max="5" required>
+            </div>
+           <div class="form-group">
+                <label for="checkout">How satisfied are you with the cookies you made during the class?</label>
+                <input type="range" id="cookies" name="cookies" min="1" max="5" required>
+            </div>
+            <div class="form-group">
+                <label for="improvements">Suggestions for future programs: </label>
+                <textarea id="improvements" name="improvements" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
